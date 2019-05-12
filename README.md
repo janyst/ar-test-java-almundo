@@ -12,11 +12,11 @@ atendido, este queda en tiempo de espera (5 segundos) y tres reintentos, de no s
 colgará la llamada.
 
 - Las clases desarrollados son:
-o AttentionClient (sí entra a esta clase el cliente ha sido atendido por un empleado;
+  -AttentionClient (sí entra a esta clase el cliente ha sido atendido por un empleado;
 posee la lógica de negocio para liberar un empleado).
-o WaitClient (sí entra a esta clase, el cliente está en espera para ser atendido).
+  -WaitClient (sí entra a esta clase, el cliente está en espera para ser atendido).
 o CountDTO (posee campos de configuración tales como: pool de empleados
 disponibles/ocupados, cantidad de llamadas a recibir, máxima cantidad de llamas).
-o Dispatcher (tiene la lógica de negocio para asignar llamadas a empleados
+  -Dispatcher (tiene la lógica de negocio para asignar llamadas a empleados
 disponibles).
-o Constant (contantes utilizadas en el codigo).
+  -Constant (contantes utilizadas en el codigo).
