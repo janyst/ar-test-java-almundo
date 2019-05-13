@@ -15,8 +15,8 @@ colgará la llamada.
   -AttentionClient (sí entra a esta clase el cliente ha sido atendido por un empleado;
 posee la lógica de negocio para liberar un empleado).
   -WaitClient (sí entra a esta clase, el cliente está en espera para ser atendido).
-o CountDTO (posee campos de configuración tales como: pool de empleados
+  -CountDTO (posee campos de configuración tales como: pool de empleados
 disponibles/ocupados, cantidad de llamadas a recibir, máxima cantidad de llamas).
   -Dispatcher (tiene la lógica de negocio para asignar llamadas a empleados
 disponibles).
-  -Constant (contantes utilizadas en el codigo).
+  -Constant (contantes utilizadas en el código).
